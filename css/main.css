@@ -1,0 +1,550 @@
+:root {
+  --main-text-color: #1a3555;
+  --link-hover-color: #004c92;
+  --white: #fff;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+body {
+  font-family: "Livvic", sans-serif;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background-color: #014e56;
+  height: 700px;
+}
+
+.header__logo {
+  padding-left: 165px;
+  padding-top: 77px;
+}
+
+.header__links {
+  padding-left: 80px;
+  padding-top: 89px;
+  display: flex;
+  gap: 40px;
+}
+
+.header__img {
+  display: flex;
+}
+
+.link {
+  /* // about */
+  color: white;
+  font-size: 18px;
+  font-family: Livvic;
+  font-weight: 600;
+  line-height: 28px;
+  word-wrap: break-word;
+  transition: 0.5s;
+}
+
+.link:hover {
+  color: #f67e7e;
+}
+
+.header__contact {
+  margin-left: 577px;
+  margin-top: 73px;
+  width: 153px;
+  height: 48px;
+  border-radius: 24px;
+  border: 2px white solid;
+
+  /* // contact us */
+  padding: 9px 30px;
+  color: white;
+  font-size: 18px;
+  font-family: Livvic;
+  font-weight: 600;
+  line-height: 28px;
+  word-wrap: break-word;
+  transition: 0.5s;
+}
+
+.header__contact:hover {
+  background-color: #ffffff;
+  color: #002529;
+}
+
+.tallent__best {
+  /* // Find the best  */
+  padding-left: 165px;
+  padding-top: 133px;
+  color: white;
+  font-size: 100px;
+  font-family: Livvic;
+  font-weight: 700;
+  line-height: 100px;
+  word-wrap: break-word;
+}
+
+.tallent__span {
+  /* // talent */
+  color: #f67e7e;
+  font-size: 100px;
+  font-family: Livvic;
+  font-weight: 700;
+  line-height: 100px;
+  word-wrap: break-wor;
+}
+
+.tallent {
+  display: flex;
+}
+
+.tallent__line {
+  margin-left: 50px;
+  margin-top: 139px;
+  width: 50px;
+  height: 4px;
+  background: #79c8c7;
+}
+
+.tallent__text {
+  /* // Finding the right people and building high performing teams can be hard. Most companies aren’t tapping into the abundance of global talent. We’re about to change that. */
+  padding-left: 30px;
+  padding-top: 212px;
+  color: white;
+  font-size: 18px;
+  font-family: Livvic;
+  font-weight: 600;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+.tallent__title {
+  display: flex;
+}
+
+.teams__container {
+  width: 1440;
+  /* height: 684px; */
+}
+
+.teams {
+  height: 680px;
+  width: 1329px;
+  background-color: #004047;
+  display: flex;
+}
+
+.teams__sistm {
+  padding-top: 198px;
+  padding-left: 125px;
+  /* display: flex; */
+}
+
+.teams__text {
+  /* // Build & manage distributed teams like no one else. */
+  padding-left: 165px;
+  padding-top: 198px;
+  color: white;
+  font-size: 48px;
+  font-family: Livvic;
+  font-weight: 700;
+  line-height: 48px;
+  word-wrap: break-word;
+}
+
+.sistm {
+  display: flex;
+}
+
+.sistm-1__img {
+  width: 72px;
+  height: 72px;
+}
+
+.paragraph__sistm {
+  padding-left: 23px;
+}
+
+.sistm-1__title {
+  /* // Experienced Individuals */
+  color: #f67e7e;
+  font-size: 18px;
+  font-family: Livvic;
+  font-weight: 700;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+.sistm-1__text {
+  /* // Our network is made up of highly experienced professionals who are passionate about what they do. */
+  padding-top: 16px;
+  color: white;
+  font-size: 15px;
+  font-family: Livvic;
+  font-weight: 600;
+  line-height: 25px;
+  word-wrap: break-word;
+}
+
+.sistm-2 {
+  padding-top: 32px;
+  display: flex;
+}
+
+.sistm-2__img {
+  width: 72px;
+  height: 72px;
+}
+
+.paragraph-2__sistm {
+  padding-left: 23px;
+}
+
+.sistm-2__title {
+  /* // Experienced Individuals */
+  color: #f67e7e;
+  font-size: 18px;
+  font-family: Livvic;
+  font-weight: 700;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+.sistm-2__text {
+  /* // Our network is made up of highly experienced professionals who are passionate about what they do. */
+  padding-top: 16px;
+  color: white;
+  font-size: 15px;
+  font-family: Livvic;
+  font-weight: 600;
+  line-height: 25px;
+  word-wrap: break-word;
+}
+
+.sistm-3 {
+  padding-top: 32px;
+  display: flex;
+}
+
+.sistm-3__img {
+  width: 72px;
+  height: 72px;
+}
+
+.paragraph-3__sistm {
+  padding-left: 23px;
+}
+
+.sistm-3__title {
+  /* // Experienced Individuals */
+  color: #f67e7e;
+  font-size: 18px;
+  font-family: Livvic;
+  font-weight: 700;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+.sistm-3__text {
+  /* // Our network is made up of highly experienced professionals who are passionate about what they do. */
+  padding-top: 16px;
+  color: white;
+  font-size: 15px;
+  font-family: Livvic;
+  font-weight: 600;
+  line-height: 25px;
+  word-wrap: break-word;
+}
+
+.result {
+  background-color: #004047;
+  width: 1329px;
+  height: 745px;
+}
+
+.result__title {
+  padding-top: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.result__title-1 {
+  /* // Delivering real results for top companies. Some of our */
+
+  color: white;
+  font-size: 48px;
+  font-family: Livvic;
+  font-weight: 700;
+  line-height: 48px;
+  word-wrap: break-word;
+}
+
+.result__span {
+  /* // success stories. */
+  color: #79c8c7;
+  font-size: 48px;
+  font-family: Livvic;
+  font-weight: 700;
+  line-height: 48px;
+  word-wrap: break-word;
+}
+
+.information {
+  padding-left: 165px;
+  padding-top: 91px;
+}
+
+.information-1 {
+  /* //  “The team perfectly fit the specialized skill set required. They focused on the most essential features helping us launch the platform eight months faster than planned.” */
+  color: white;
+  font-size: 15px;
+  font-family: Livvic;
+  font-weight: 600;
+  line-height: 25px;
+  word-wrap: break-word;
+}
+
+.information-1__title {
+  /* // Kady Baker */
+  padding-top: 24px;
+  color: #79c8c7;
+  font-size: 18px;
+  font-family: Livvic;
+  font-weight: 700;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+.information-1__text {
+  /* // Product Manager at Bookmark */
+  padding-top: 2px;
+  color: white;
+  font-size: 13px;
+  font-family: Livvic;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 18px;
+  word-wrap: break-word;
+}
+
+.information-1__img {
+  padding-left: 144px;
+  padding-top: 32px;
+}
+
+.results {
+  display: flex;
+}
+
+/* .information-1__paragraph {
+} */
+
+.information-1__title {
+  /* // Kady Baker */
+  padding-top: 24px;
+  color: #79c8c7;
+  font-size: 18px;
+  font-family: Livvic;
+  font-weight: 700;
+  line-height: 28px;
+  word-wrap: break-word;
+}
+
+.information-1__text {
+  /* // Product Manager at Bookmark */
+  padding-top: 2px;
+  color: white;
+  font-size: 13px;
+  font-family: Livvic;
+  font-style: italic;
+  font-weight: 500;
+  line-height: 18px;
+  word-wrap: break-word;
+}
+
+.information-1__img {
+  padding-left: 144px;
+  padding-top: 32px;
+}
+
+.start {
+  background-color: #f67e7e;
+  width: 1329px;
+  height: 200px;
+}
+
+.started {
+  display: flex;
+}
+
+.start__title {
+  /* // Ready to get started? */
+  padding-left: 250px;
+  padding-top: 76px;
+  color: #012f34;
+  font-size: 48px;
+  font-family: Livvic;
+  font-weight: 700;
+  line-height: 48px;
+  word-wrap: break-word;
+}
+
+/* .start__link {
+  width: 153px;
+  height: 50px;
+  border-radius: 24px;
+  border: 2px #012f34 solid; */
+
+/* // contact us
+  color: #012f34;
+  font-size: 18px;
+  font-family: Livvic;
+  font-weight: 600;
+  line-height: 28px;
+  word-wrap: break-word;
+}  */
+
+.start-contact {
+  display: flex;
+}
+
+.start__link {
+  margin-left: 260px;
+  margin-top: 76px;
+  width: 153px;
+  height: 48px;
+  border-radius: 24px;
+  border: 2px #012f34 solid;
+
+  /* // contact us */
+  padding: 9px 30px;
+  color: #012f34;
+  font-size: 18px;
+  font-family: Livvic;
+  font-weight: 600;
+  line-height: 28px;
+  word-wrap: break-word;
+  transition: 0.5s;
+}
+.start__link:hover {
+  background-color: #012f34;
+  color: #fff;
+  border-color: #012f34;
+}
+
+.lane {
+  height: 196px;
+  background-color: #002529;
+}
+
+.lane__links {
+  padding-left: 165px;
+  padding-top: 48px;
+  display: flex;
+}
+
+.lane__img {
+  display: flex;
+}
+
+.lane__logo {
+  padding-bottom: 25px;
+}
+
+.lane__link {
+  /* // home */
+
+  color: white;
+  font-size: 18px;
+  font-family: Livvic;
+  font-weight: 600;
+  line-height: 28px;
+  word-wrap: break-word;
+  transition: 0.5s;
+}
+
+.lane__link:hover {
+  color: #f67e7e;
+}
+
+.lane__link-1 {
+  /* // about */
+  padding-left: 40px;
+  color: white;
+  font-size: 18px;
+  font-family: Livvic;
+  font-weight: 600;
+  line-height: 28px;
+  word-wrap: break-word;
+  transition: 0.5s;
+}
+
+.lane__link-1:hover {
+  color: #f67e7e;
+}
+
+.lane__contacts {
+  display: flex;
+}
+
+.lane__contact {
+  /* // 987  Hillcrest Lane Irvine, CA California 92714 Call Us : 949-833-7432 */
+  padding-left: 145px;
+  display: flex;
+  color: white;
+  font-size: 15px;
+  font-family: Livvic;
+  font-weight: 600;
+  line-height: 25px;
+  word-wrap: break-word;
+}
+
+.links {
+  padding-top: 113px;
+}
+
+.web__links {
+  padding-left: 276px;
+}
+
+.web__title {
+  /* // Copyright 2020. All Rights Reserved */
+  padding-top: 75px;
+  color: white;
+  font-size: 15px;
+  font-family: Livvic;
+  font-weight: 600;
+  line-height: 25px;
+  word-wrap: break-word;
+}
