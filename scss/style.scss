@@ -1,46 +1,10 @@
-:root {
-  --main-text-color: #1a3555;
-  --link-hover-color: #004c92;
-  --white: #fff;
-}
-
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-a {
-  text-decoration: none;
-}
-
-img {
-  display: block;
-}
-
-body {
-  font-family: "Livvic", sans-serif;
-}
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
-
-.container {
-  max-width: 1440px;
-  margin: 0 auto;
-  padding: 0 20px;
-}
+@charset "utf-8";
+@import "normalize.scss";
+@import "variables.scss";
+@import "mixins.scss";
+@import "fonts.scss";
+@import "generals.scss";
+@import "./blocks/all_blocks";
 
 .header {
   background-color: #014e56;
@@ -78,7 +42,7 @@ body {
   color: #f67e7e;
 }
 
-.header__contact {
+.header__contacts {
   margin-left: 577px;
   margin-top: 73px;
   width: 153px;
@@ -86,18 +50,30 @@ body {
   border-radius: 24px;
   border: 2px white solid;
 
-  /* // contact us */
-  padding: 9px 30px;
+  // contact us
   color: white;
   font-size: 18px;
   font-family: Livvic;
   font-weight: 600;
   line-height: 28px;
   word-wrap: break-word;
-  transition: 0.5s;
 }
 
-.header__contact:hover {
+.contact {
+  // contact us
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 18px;
+  font-family: Livvic;
+  font-weight: 600;
+  line-height: 28px;
+  word-wrap: break-word;
+  transition: all 0.3s;
+}
+
+.header__contacts:hover {
   background-color: #ffffff;
   color: #002529;
 }
@@ -128,12 +104,13 @@ body {
   display: flex;
 }
 
-.tallent__line {
+.tallent__line-1 {
   margin-left: 50px;
   margin-top: 139px;
   width: 50px;
   height: 4px;
-  background: #79c8c7;
+  background-color: #f67e7e;
+  color: #f67e7e;
 }
 
 .tallent__text {
@@ -368,7 +345,7 @@ body {
 }
 
 /* .information-1__paragraph {
-} */
+  } */
 
 .information-1__title {
   /* // Kady Baker */
@@ -421,19 +398,19 @@ body {
 }
 
 /* .start__link {
-  width: 153px;
-  height: 50px;
-  border-radius: 24px;
-  border: 2px #012f34 solid; */
+    width: 153px;
+    height: 50px;
+    border-radius: 24px;
+    border: 2px #012f34 solid; */
 
 /* // contact us
-  color: #012f34;
-  font-size: 18px;
-  font-family: Livvic;
-  font-weight: 600;
-  line-height: 28px;
-  word-wrap: break-word;
-}  */
+    color: #012f34;
+    font-size: 18px;
+    font-family: Livvic;
+    font-weight: 600;
+    line-height: 28px;
+    word-wrap: break-word;
+  }  */
 
 .start-contact {
   display: flex;
